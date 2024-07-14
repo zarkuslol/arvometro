@@ -5,7 +5,7 @@ services:
     build: .
     container_name: arvometro
     ports:
-      - "8501:82"
+      - "8501:8501"
     volumes:
       - .:/app
     depends_on:
